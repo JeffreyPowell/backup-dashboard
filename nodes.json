@@ -1,0 +1,83 @@
+{
+  "backups": [{
+    "org": "Eu Ops",
+    "dir": "eu-ops",
+    "nodes": [{
+      "server": "chef-001",
+      "ip": "x.x.x.x",
+      "dir": "/backups/chef-001",
+      "status": "inactive",
+      "hourly": "12",
+      "weekly": "14",
+      "monthly": "12",
+      "yearly": "5",
+      "max_age_hours": "24",
+      "alert_contact": "j@com"
+    }, {
+      "server": "web-001",
+      "ip": "x.x.x.x",
+      "dir": "/backups/web-001",
+      "status": "active",
+      "hourly": "12",
+      "weekly": "14",
+      "monthly": "12",
+      "yearly": "5",
+      "max_age_hours": "24",
+      "alert_contact": "j@com"
+    }]
+  }, {
+    "org": "Biz-Tools",
+    "dir": "biztools",
+    "nodes": [{
+      "server": "wordpress-001",
+      "ip": "x.x.x.x",
+      "dir": "/backups/wordpress-001",
+      "status": "active",
+      "hourly": "12",
+      "weekly": "14",
+      "monthly": "12",
+      "yearly": "5",
+      "max_age_hours": "24",
+      "alert_contact": "j@com"
+    }, {
+      "server": "wordpress-002",
+      "ip": "x.x.x.x",
+      "dir": "/backups/wordpress-002",
+      "status": "active",
+      "hourly": "12",
+      "weekly": "14",
+      "monthly": "12",
+      "yearly": "5",
+      "max_age_hours": "24",
+      "alert_contact": "j@com"
+    }]
+  }, {
+    "org": "Infrastructure",
+    "dir": "infrastructure",
+    "nodes": [{
+      "server": "v7000-1",
+      "ip": "x.x.x.x",
+      "dir": "/backups/infrastructure/v7000-1/v7k01_config_backup",
+      "mask": "*.gz",
+      "status": "active",
+      "hourly": "12",
+      "weekly": "14",
+      "monthly": "12",
+      "yearly": "5",
+      "max_age_hours": "24",
+      "alert_contact": "j@com"
+    }, {
+      "server": "v7000-2",
+      "ip": "x.x.x.x",
+      "dir": "/backups/infrastructure/v7000-1/v7k02_config_backup",
+      "mask": "*.gz",
+      "status": "active",
+      "hourly": "12",
+      "weekly": "14",
+      "monthly": "12",
+      "yearly": "5",
+      "max_age_hours": "24",
+      "alert_contact": "j@com"
+    }]
+  }]
+}
